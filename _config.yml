@@ -1,4 +1,5 @@
 # Site Settings
+lang: en
 title: Bulma Clean Theme
 tagline: Bulma Clean Theme
 email: your-email@domain.com
@@ -10,6 +11,9 @@ permalink: pretty
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes
 #hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
 
 paginate: 6
 paginate_path: "/blog/page:num"
@@ -27,8 +31,8 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
-  - kramdown
-  - rouge
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
 
 exclude: 
   - Gemfile

@@ -12,36 +12,38 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 
 [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
 ![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
 
 ## Ruby Gem
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme)
+The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
 
 ## GitHub Pages
 
-The theme can be used with GitHub Pages bu setting the `remote_theme` in your Jekyll sites `_config.yml`
+The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
 
 ```yml
 remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
-## Instructions
+## Documentation
 
-For full instructions, please see the Readme at the GitHub repo:
-[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
+For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
 
 ## Page Layouts
 
-This demo site showcases the available page layout options.
+This demo site showcases the available page layout options. 
 
-* Page With Sidebar
-* Page Without Sidebar
-* Page With Menubar
-* Page With Tabs
-* Page Without Footer
-* Page Without Hero
-* Page With Contents
+* Sidebar
+* Menubar
+* Tabs
+* Footer
+* Hero
+* Contents
 * Landing Page With Callouts
+* Sponsors Page
+* Image Gallery
+* Recipe Page
 * Blog
 * Post
 

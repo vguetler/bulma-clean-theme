@@ -21,3 +21,20 @@ div.highlight {
 .hero-darken {
     background-color: rgba($hero-darken, 0.5);
 }
+
+.content {
+    figure {
+        margin: 0;
+    }
+}
+
+.callout {
+    &-icon {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+// Alpine.js hide on initial load
+[x-cloak] { display: none !important; }
